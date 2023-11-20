@@ -1,0 +1,74 @@
+.home, .about, .views, .list,.listdetails, .host-page, .vans{
+align-items: center;
+width: 600px;
+justify-content: center;
+margin-left: 400px;
+border-radius: 5px;
+position: absolute;
+background-color: rgb(192, 255, 128);
+}
+
+nav {
+    text-align: center;
+    width: 600px;
+    display: flex;
+    background-color: black;
+    border-radius: 8px;
+    position: relative;
+    margin-top: 15px;
+    margin-left: 400px;
+    justify-content: space-between;
+  }
+  nav > a {
+    text-align: right;
+    text-decoration: none;
+    color: rgb(192, 255, 128);
+    font-size: 15px;
+    align-items: center;
+    display: flex;
+    position: relative;
+  }
+   nav > a:hover{
+    font-size:large ;
+    color: red;
+  }
+  
+.img{
+  width: 200px;
+  margin-left: 10px;
+}
+footer {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 30px;
+  display: flex;
+  background-color: black;
+  border-radius: 4px;
+  position: absolute;
+  color:  rgb(192, 255, 128);
+}
+.my-link {
+  color: red;
+}
+.host-page nav{
+  width: 590px;
+  margin-left: 5px;
+}
+.my-vans{
+  width: 500px;
+  height: 120px;
+  background-color: white;
+  display: flex;
+  border-radius: 10px;
+  margin-left: 30px;
+  align-items: center;
+ 
+}
+.my-vans img {
+  border-radius: 8px;
+  width: 70px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
