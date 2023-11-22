@@ -1,10 +1,12 @@
 import React from "react";
 import './../App.css'
-import { NavLink } from "react-router-dom";
+import { NavLink, useParams } from "react-router-dom";
 import { Outlet } from "react-router-dom";
 
 
 function HostLayout () {
+    const { id } = useParams();
+    const [currentVan, setCurrerntVan] = React.useState(null)
 
     function onhover() {
         const activeStyle = {
@@ -47,7 +49,7 @@ function HostLayout () {
                     Reviews
                     </NavLink>
             </nav>
-            <Outlet/>
+            <Outlet context={{currentVan}}/>
         </div>
        
         </>
