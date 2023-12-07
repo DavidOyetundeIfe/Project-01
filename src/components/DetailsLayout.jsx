@@ -23,7 +23,7 @@ return (
          <>
      <br/>
    <NavLink 
-   to=" "
+   to="../vans"
    style={onhover()}
    >
     Back to Vans page

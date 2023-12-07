@@ -33,6 +33,7 @@ function List () {
         <button>Details</button>
           </Link>
         </div>
+        
      </div>
     )
 }

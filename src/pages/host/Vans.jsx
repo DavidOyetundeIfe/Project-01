@@ -1,11 +1,16 @@
 import React from "react";
 import '../../App.css';
-import { NavLink } from "react-router-dom";
+import { NavLink , useSearchParams} from "react-router-dom";
 import Footer from "../../components/Footer";
 
 
 
 function Vans() {
+const [SearchParams, setSearchParams] = useSearchParams();
+
+const typeFilter = SearchParams.get("type");
+
+
     function onhover() {
         const activeStyle = {
           textDecoration: "none",
@@ -19,6 +24,7 @@ function Vans() {
       }
     return ( 
         <div >
+            {console.log(typeFilter)}
             <h1>Your listed vans</h1>
             <div className="my-vans">
                 <img src="../c1.JPG" />

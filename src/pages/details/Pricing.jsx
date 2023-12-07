@@ -5,6 +5,7 @@ import { useOutletContext } from "react-router-dom";
 
 
 function Pricing() {
+
     return  <>  
     <div>
     <h1>Pricing welcomes you</h1>
