@@ -5,7 +5,8 @@ import Footer from "../../components/Footer";
 
 
 
-function Vans() {
+
+function Vans( ) {
 const [SearchParams, setSearchParams] = useSearchParams();
 
 const typeFilter = SearchParams.get("type");
@@ -31,6 +32,7 @@ const typeFilter = SearchParams.get("type");
             <NavLink 
             to={`${Vans.id}`}
             style={onhover()}
+            type="Jedi"
             >
                 <h3>Modest Explorer</h3>
                 <p>$60/Day</p>
@@ -42,6 +44,7 @@ const typeFilter = SearchParams.get("type");
             <NavLink 
             to={`${Vans.id}`}
             style={onhover()}
+            type="Sith"
             >
                 <h3>Baech Bum</h3>
                 <p>$80/Day</p>
@@ -53,6 +56,7 @@ const typeFilter = SearchParams.get("type");
             <NavLink 
             to={`${Vans.id}`}
             style={onhover()}
+            type="Sith"
             >
                 <h3>Night life</h3>
                 <p>$40/Day</p>
@@ -64,6 +68,7 @@ const typeFilter = SearchParams.get("type");
             <NavLink 
             to={`${Vans.id}`}
             style={onhover()}
+            type="Jedi"
             >
                 <h3>Party Lit</h3>
                 <p>$500/Day</p>
@@ -75,6 +80,7 @@ const typeFilter = SearchParams.get("type");
             <NavLink 
             to={`${Vans.id}`}
             style={onhover()}
+            type="Sith"
             >
                 <h3>Baller field</h3>
                 <p>$800/Day</p>
@@ -86,6 +92,7 @@ const typeFilter = SearchParams.get("type");
             <NavLink 
             to={`${Vans.id}`}
             style={onhover()}
+            type="Jedi"
             >
                 <h3>Rich As Fuck</h3>
                 <p>$10000/Day</p>

@@ -1,6 +1,7 @@
 .home, .about, .views, .list,.listdetails, .host-page, .vans{
 align-items: center;
-width: 600px;
+width: 100%;
+height: 100%;
 justify-content: center;
 margin-left: 400px;
 border-radius: 5px;
@@ -10,7 +11,7 @@ background-color: rgb(192, 255, 128);
 
 nav {
     text-align: center;
-    width: 600px;
+    width: 100%;
     display: flex;
     background-color: black;
     border-radius: 8px;

@@ -21,7 +21,6 @@ import Pricing from './pages/details/Pricing';
 import Photos from './pages/details/Photos';
 
 
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
