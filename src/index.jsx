@@ -44,7 +44,7 @@ root.render(
               </Route>
               <Route path="reviews" element={<Reviews/>}/>
           </Route>
-          </Route>
+        </Route>
     </Routes>
     </BrowserRouter>
   </React.StrictMode>

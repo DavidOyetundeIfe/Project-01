@@ -17,34 +17,19 @@ return(
   }
     return (
         <nav>
-          <NavLink 
-          to="/"
-          style={onhover()}
-          >
+          <NavLink to="/"  style={onhover()}   >
             <h1>#VANLIFE</h1>
             </NavLink>
-          <NavLink 
-          to="/host"
-          style={onhover()}
-          >
+          <NavLink to="/host" style={onhover()}>
             Host
             </NavLink>
-          <NavLink 
-          to="/about" 
-          style={onhover()}
-          >
+          <NavLink to="/about" style={onhover()} >
             About
             </NavLink>
-          <NavLink 
-          to="/views"
-          style={onhover()}
-          >
+          <NavLink to="/views"style={onhover()}>
             Views
             </NavLink>
-          <NavLink 
-          to="/list"
-          style={onhover()}
-          >
+          <NavLink to="/list" style={onhover()}>
             List
             </NavLink>
         </nav>
