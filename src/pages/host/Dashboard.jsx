@@ -1,5 +1,6 @@
 import React from "react";
 import '../../App.css';
+import Footer from "../../components/Footer";
 //import { useOutletContext } from "react-router-dom";
 
 
@@ -11,7 +12,7 @@ function Dashboard() {
     <div>
     <h1>host welcomes you</h1>
     </div>
-   
+    <Footer/>
      </>
 }
 
